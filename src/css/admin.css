@@ -1,0 +1,140 @@
+/*======= font =======*/
+@font-face {
+    font-family: 'Futura Bk';
+
+ src: url('/fonts/futura-book-bt-webfont.eot');
+    src: url('/fonts/futura-book-bt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/futura-book-bt-webfont.woff') format('woff'),
+         url('/fonts/FtraBk__.ttf') format('truetype'),
+         url('/fonts/futura-book-bt-webfont.svg#FuturaBk') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura Md';
+ 	src: url('/fonts/futura-medium-bt-webfont.eot');
+	src: url('/fonts/futura-medium-bt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/futura-medium-bt-webfont.woff') format('woff'),
+         url('/fonts/futura-medium-bt-webfont.ttf') format('truetype'),
+         url('/fonts/futura-medium-bt-webfont.svg#FuturaBk') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura Lt';
+ 	src: url('/fonts/futura-light-bt-webfont.eot');
+	src: url('/fonts/futura-light-bt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/futura-light-bt-webfont.woff') format('woff'),
+         url('/fonts/futura-light-bt-webfont.ttf') format('truetype'),
+         url('/fonts/futura-light-bt-webfont.svg#FuturaBk') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*======= general =======*/
+body {
+	font-weight:480;
+	font-size:0.8em;
+	font-family:'Futura Bk',Arial,sans-serif;
+	font-size:1em;
+	scrollbar-face-color: #CCCCCC; 
+	scrollbar-shadow-color: #FFFFFF; 
+	scrollbar-highlight-color: #D10D10; 
+	scrollbar-3dlight-color: #FFFFFF; 
+	scrollbar-darkshadow-color: #FFFFFF; 
+	scrollbar-track-color: #FFFFFF; 
+	scrollbar-arrow-color: #D10D10;
+}
+
+.txt {
+	font-weight:480;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-decoration: none;
+	color: #202020
+}
+. txtb {
+	font-weight:480;
+	font-family:'Futura Bk',Arial,sans-serif;
+	font-size:14px;
+	text-decoration: none;
+	color: #202020;
+	font-weight:bold
+}
+.forms { 
+	border: 2px #D10D10 solid;
+	font-family:'Futura Bk',Arial,sans-serif;
+	font-weight:480;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	color: #666666
+}
+.titre {
+	font-weight:480;
+	font-family:'Futura Bk',Arial,sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #514946;
+}
+
+.lien {font-weight:480; font-family:'Futura Bk',Arial,sans-serif; font-size:14px; text-decoration: none; color: #D10D10}
+a:hover { color: #FFFFFF; text-decoration: none }
+a:link { text-decoration: none }
+a:visited { text-decoration: none }
+
+.red { font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #FF0000; text-decoration: none }
+
+
+/*======= tableau =======*/
+.tabtitre {
+	font-weight:480;
+	font-family:'Futura Bk',Arial,sans-serif;
+	font-size:14px;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-weight:bold
+}
+.tabtitre-small {
+	font-weight:480;
+	font-family:'Futura Bk',Arial,sans-serif;
+	font-size:12px;
+	background-color: #492D1F;
+	color: #FFFFFF;
+	font-weight:bold
+}
+.tabcell {
+	font-weight:480;
+	font-family:'Futura Bk',Arial,sans-serif;
+	font-size:14px;
+	background-color: #D6D6D6;
+	color: #202020;
+}
+
+.tabcell1 {
+	font-weight:480;
+	font-family:'Futura Bk',Arial,sans-serif;
+	font-size:12px;
+	background-color: #D6D6D6;
+	color: #222222;
+}
+
+.tablien {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	background-color: #D6D6D6;
+	color: #202020;
+	font-weight:bold
+}
+
+.tabnav {
+	font-weight:480;
+	font-family:'Futura Bk',Arial,sans-serif;
+	font-size:12px;
+	background-color: #ADC642;
+	color: #FFFFFF;
+	font-weight: bold
+}
+.tabnav a:hover { color: #FFFFFF; text-decoration: none }
+.tabnav a:link { text-decoration: none }
+.tabnav a:visited { text-decoration: none }
