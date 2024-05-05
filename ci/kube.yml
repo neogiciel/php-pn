@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: php-pn-k8s
-          image: neogicel/php-pn:1.0
+          image: neogicel/php-pn:2.2
 # Image that will be used to containers in the cluster
           imagePullPolicy: Always
           ports:

@@ -17,7 +17,7 @@ define('APPLICATION_PROD', 'PROD');
 if(APPLICATION_PROD == "PROD"){
 	//GLOBAL
 	define('APPLICATION_PATH', "/var/www/html");
-	define('APPLICATION_URL', "http://localhost:8080");
+	define('APPLICATION_URL', "http://php.neogiciel.com");
 	//DB
 	define('APPLICATION_DB_SERVER', '192.168.1.72');
 	define('APPLICATION_DB_LOGIN', 'neogiciel');
@@ -26,7 +26,7 @@ if(APPLICATION_PROD == "PROD"){
 }else{
 //GLOBAL
 	define('APPLICATION_PATH', "/var/www/html");
-	define('APPLICATION_URL', "http://localhost");
+	define('APPLICATION_URL', "http://php.neogiciel.com");
 	//DB
 	define('APPLICATION_DB_SERVER', '192.168.1.72');
 	define('APPLICATION_DB_LOGIN', 'neogiciel');
