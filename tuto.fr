@@ -1,8 +1,8 @@
 #docker build
 docker build -t image-php-pn .
 docker run -dit --name php-pn -p 8080:80 image-php-pn
-docker tag php-pn neogicel/php-pn:2.2
-docker push php-pn neogicel/php-pn:2.2
+docker tag image-php-pn neogicel/php-pn:2.2
+docker push image-php-pn neogicel/php-pn:2.2
 
 
 #commande dans un pod
