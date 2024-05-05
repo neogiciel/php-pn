@@ -12,6 +12,7 @@ if(isset($config)==FALSE){
 
 //--------------------------------
 // Variables gloables
+//
 //--------------------------------
 define('APPLICATION_PROD', 'PROD');
 if(APPLICATION_PROD == "PROD"){
